@@ -1,0 +1,470 @@
+############### PRACTICALS NO. 1 ####################################
+
+eadob@MSI MINGW64 ~
+$ cd /c/Users/eadob/Desktop/
+
+eadob@MSI MINGW64 ~/Desktop
+$ ls
+'DESKTOP - OLD'/                            'LYNDA - NCAT'/
+ desktop.ini                                'Microsoft Teams.lnk'*
+'DOCUMENTS - OLD'/                          'NCAT SCHOOL WORK'/
+'DOWNLOADS - OLD'/                          'Norton Installation Files.lnk'*
+'GAP - Program'/                             OBOBACK/
+ good_coffee/                                Slack.lnk*
+ Grammarly.lnk*                             'Visual Studio Code.lnk'*
+'Install Now Autodesk Revit 2021.lnk'*       Zoom.lnk*
+'Install Now Autodesk® AutoCAD® 2021.lnk'*
+
+eadob@MSI MINGW64 ~/Desktop
+$ cd "GAP - Program"
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program
+$ ls
+'1. Code Immersion (CI)'/  '2. Data Science'/  'Classes Links.docx'
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program
+$ ls -a
+ ./   ../  '1. Code Immersion (CI)'/  '2. Data Science'/  'Classes Links.docx'
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program
+$ ls -l
+total 24
+drwxr-xr-x 1 eadob 197609     0 Aug 17 21:10 '1. Code Immersion (CI)'/
+drwxr-xr-x 1 eadob 197609     0 Aug 16 18:53 '2. Data Science'/
+-rw-r--r-- 1 eadob 197609 13213 Aug 14 19:56 'Classes Links.docx'
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program
+$ ls -la
+total 32
+drwxr-xr-x 1 eadob 197609     0 Aug 16 19:07  ./
+drwxr-xr-x 1 eadob 197609     0 Aug 17 02:19  ../
+drwxr-xr-x 1 eadob 197609     0 Aug 17 21:10 '1. Code Immersion (CI)'/
+drwxr-xr-x 1 eadob 197609     0 Aug 16 18:53 '2. Data Science'/
+-rw-r--r-- 1 eadob 197609 13213 Aug 14 19:56 'Classes Links.docx'
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program
+$ cd '1. Code Immersion (CI)'
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)
+$ ls
+ CODE_FILES/
+'GAP_-_Emmanuel_Dadzie_-_PT_.NET_CI_08.17.20_-_MM (All signed).pdf'
+ GAP_-_Emmanuel_Dadzie_-_PT_.NET_CI_08.17.20_-_MM.pdf
+ HWKs/
+ InClassWork/
+'NET Pre-Course Work.pdf'
+ NOTE/
+ PROJECTS/
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)
+$ ls -a
+ ./
+ ../
+ CODE_FILES/
+'GAP_-_Emmanuel_Dadzie_-_PT_.NET_CI_08.17.20_-_MM (All signed).pdf'
+ GAP_-_Emmanuel_Dadzie_-_PT_.NET_CI_08.17.20_-_MM.pdf
+ HWKs/
+ InClassWork/
+'NET Pre-Course Work.pdf'
+ NOTE/
+ PROJECTS/
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)
+$ cd HWKs
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/HWKs
+$ ls
+HW1/
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/HWKs
+$ cd HW1
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/HWKs/HW1
+$ mkdir directories
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/HWKs/HW1
+$ ls
+ Bash_commands_HW.docx   Day1_homework.png   directories/  'HTML Homework.pdf'
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/HWKs/HW1
+$ cd ~
+
+eadob@MSI MINGW64 ~
+$ cd /c/Users/eadob/Desktop/"GAP - Program"/"1. Code Immersion (CI)"/HWKs/HW1/
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/HWKs/HW1
+$ ls
+ Bash_commands_HW.docx   Day1_homework.png   directories/  'HTML Homework.pdf'
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/HWKs/HW1
+$ echo
+
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/HWKs/HW1
+$ echo 123
+123
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/HWKs/HW1
+$ echo 1+3
+1+3
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/HWKs/HW1
+$ pwd
+/c/Users/eadob/Desktop/GAP - Program/1. Code Immersion (CI)/HWKs/HW1
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/HWKs/HW1
+$ ls
+ Bash_commands_HW.docx   Day1_homework.png   directories/  'HTML Homework.pdf'
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/HWKs/HW1
+$ mv ./directories/
+mv: missing destination file operand after './directories/'
+Try 'mv --help' for more information.
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/HWKs/HW1
+$ mv directories ../NOTE/
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/HWKs/HW1
+$ ls
+ Bash_commands_HW.docx   Day1_homework.png  'HTML Homework.pdf'
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/HWKs/HW1
+$ ^C
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/HWKs/HW1
+$ mv directories ./NOTE/
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/HWKs/HW1
+$ touch you.html
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/HWKs/HW1
+$ mv you.html ./directories/
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/HWKs/HW1
+$ cd directories
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/HWKs/HW1/directories
+$ ls
+you.html
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/HWKs/HW1/directories
+$ mv you.html ..../NOTE/
+mv: cannot move 'you.html' to '..../NOTE/': No such file or directory
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/HWKs/HW1/directories
+$ mv you.html .../NOTE/
+mv: cannot move 'you.html' to '.../NOTE/': No such file or directory
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/HWKs/HW1/directories
+$ mv you.html ../HW1/HWKs/NOTE/
+mv: cannot move 'you.html' to '../HW1/HWKs/NOTE/': No such file or directory
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/HWKs/HW1/directories
+$ mc you.html ../chops/
+bash: mc: command not found
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/HWKs/HW1/directories
+$ mv you.html ../chops/
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/HWKs/HW1/directories
+$ cd HW1
+bash: cd: HW1: No such file or directory
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/HWKs/HW1/directories
+$ ls
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/HWKs/HW1/directories
+$ cd ../
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/HWKs/HW1
+$ ls
+ Bash_commands_HW.docx   Day1_homework.png  'HTML Homework.pdf'
+ chops/                  directories/
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/HWKs/HW1
+$ cd chops
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/HWKs/HW1/chops
+$ ls
+you.html
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/HWKs/HW1/chops
+$ mv you.html ../../../NOTE/
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/HWKs/HW1/chops
+$ ls
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/HWKs/HW1/chops
+$ cd ../../../
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)
+$ ls
+ CODE_FILES/
+'GAP_-_Emmanuel_Dadzie_-_PT_.NET_CI_08.17.20_-_MM (All signed).pdf'
+ GAP_-_Emmanuel_Dadzie_-_PT_.NET_CI_08.17.20_-_MM.pdf
+ HWKs/
+ InClassWork/
+'NET Pre-Course Work.pdf'
+ NOTE/
+ PROJECTS/
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)
+$ cd NOTE
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/NOTE
+$ ls
+'Intro to HTML.pdf'   you.html
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/NOTE
+$ mv you.html ../HWKs/././chops/
+mv: cannot move 'you.html' to '../HWKs/././chops/': No such file or directory
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/NOTE
+$ mv you.html ../HWKs/
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/NOTE
+$ cd ../
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)
+$ ls
+ CODE_FILES/
+'GAP_-_Emmanuel_Dadzie_-_PT_.NET_CI_08.17.20_-_MM (All signed).pdf'
+ GAP_-_Emmanuel_Dadzie_-_PT_.NET_CI_08.17.20_-_MM.pdf
+ HWKs/
+ InClassWork/
+'NET Pre-Course Work.pdf'
+ NOTE/
+ PROJECTS/
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)
+$ cd HWKs
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/HWKs
+$ ls
+HW1/  you.html
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/HWKs
+$ mv you.html ./chops/
+mv: cannot move 'you.html' to './chops/': No such file or directory
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/HWKs
+$ mv you.html ./HW1/chops/
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/HWKs
+$ cd ././
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/HWKs
+$ ls
+HW1/
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/HWKs
+$ cd chops
+bash: cd: chops: No such file or directory
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/HWKs
+$ cd /HW1/chops/
+bash: cd: /HW1/chops/: No such file or directory
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/HWKs
+$ cd HW1
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/HWKs/HW1
+$ cd chops
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/HWKs/HW1/chops
+$ ls
+you.html
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/HWKs/HW1/chops
+$ mv you.html ../../
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/HWKs/HW1/chops
+$ mv you.html ../../../
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/HWKs/HW1/chops
+$ cd ../../../
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)
+$ ls
+ CODE_FILES/
+'GAP_-_Emmanuel_Dadzie_-_PT_.NET_CI_08.17.20_-_MM (All signed).pdf'
+ GAP_-_Emmanuel_Dadzie_-_PT_.NET_CI_08.17.20_-_MM.pdf
+ HWKs/
+ InClassWork/
+'NET Pre-Course Work.pdf'
+ NOTE/
+ PROJECTS/
+ you.html
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)
+$ cd HWKs/HW1/
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/HWKs/HW1
+$ cd ../../
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)
+$ mv you.html HWKs/HW1/chops/
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)
+$ cd ./
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)
+$ cd HWKs/HW1/chops/
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/HWKs/HW1/chops
+$ ls
+you.html
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/HWKs/HW1/chops
+$ open you.html
+bash: open: command not found
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/HWKs/HW1/chops
+$ cd ../
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/HWKs/HW1
+$ cd ../../
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)
+$ cd CODE_FILES/BASH_Files/
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/CODE_FILES/BASH_Files
+$ ls
+1st_class_8.17.20.txt
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/CODE_FILES/BASH_Files
+$ /c/WINDOWS/system32/nnotepad.exe 1st_class_8.17.20.txt
+bash: /c/WINDOWS/system32/nnotepad.exe: No such file or directory
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/CODE_FILES/BASH_Files
+$ open /c/WINDOWS/system32/nnotepad.exe 1st_class_8.17.20.txt
+bash: open: command not found
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/CODE_FILES/BASH_Files
+$ open /c/WINDOWS/system64/nnotepad.exe 1st_class_8.17.20.txt
+bash: open: command not found
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/CODE_FILES/BASH_Files
+$ 1st_class_8.17.20.txt
+bash: 1st_class_8.17.20.txt: command not found
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/CODE_FILES/BASH_Files
+$ start 1st_class_8.17.20.txt
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/CODE_FILES/BASH_Files
+$ explorer 1st_class_8.17.20.txt
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/CODE_FILES/BASH_Files
+$ sublime_text 1st_class_8.17.20.txt
+bash: sublime_text: command not found
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/CODE_FILES/BASH_Files
+$ "sublime text 3" 1st_class_8.17.20.txt
+bash: sublime text 3: command not found
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/CODE_FILES/BASH_Files
+$ sublime 1st_class_8.17.20.txt
+bash: sublime: command not found
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/CODE_FILES/BASH_Files
+$ start 1st_class_8.17.20.txt
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/CODE_FILES/BASH_Files
+$ cd ../../
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)
+$ cd HWKs/HW1/chops/
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/HWKs/HW1/chops
+$ start you.html
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/HWKs/HW1/chops
+$ "Google Chrome" you.html
+bash: Google Chrome: command not found
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/HWKs/HW1/chops
+$ google chrome you.html
+bash: google: command not found
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/HWKs/HW1/chops
+$
+
+
+eadob@MSI MINGW64 ~
+$ cd /c/Users/eadob/Desktop/"GAP - Program"/"1. Code Immersion (CI)"/
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)
+$ ls
+ CODE_FILES/
+'GAP_-_Emmanuel_Dadzie_-_PT_.NET_CI_08.17.20_-_MM (All signed).pdf'
+ GAP_-_Emmanuel_Dadzie_-_PT_.NET_CI_08.17.20_-_MM.pdf
+ HWKs/
+ InClassWork/
+'NET Pre-Course Work.pdf'
+ NOTE/
+ PROJECTS/
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)
+$ cd CODE_FILES
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/CODE_FILES
+$ ls
+BASH_Files/  ConsoleApp1/  HTML_Files/
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/CODE_FILES
+$ cd HTML_Files
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/CODE_FILES/HTML_Files
+$ ls
+good_coffee/  travel.html
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/CODE_FILES/HTML_Files
+$ touch travel.css
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/CODE_FILES/HTML_Files
+$ notepad travel.css
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/CODE_FILES/HTML_Files
+$ ls
+good_coffee/  travel.css  travel.html
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/CODE_FILES/HTML_Files
+$ start travel.html
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/CODE_FILES/HTML_Files
+$ sublime travel.html
+bash: sublime: command not found
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/CODE_FILES/HTML_Files
+$ notepad travel.html
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/CODE_FILES/HTML_Files
+$ alias subl="/c/Program\ Files/Sublime\ Text\ 2/sublime_text.exe"
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/CODE_FILES/HTML_Files
+$ subl .
+bash: /c/Program Files/Sublime Text 2/sublime_text.exe: No such file or directory
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/CODE_FILES/HTML_Files
+$ ^C
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/CODE_FILES/HTML_Files
+$ alias subl="/c/Program\ Files/Sublime\ Text\ 3/sublime_text.exe"
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/CODE_FILES/HTML_Files
+$ subl .
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/CODE_FILES/HTML_Files
+$ subl travel.html
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/CODE_FILES/HTML_Files
+$
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/CODE_FILES/HTML_Files
+$ alias gchrome="/c/Program\ Files\ \(x86\)/Google/Chrome/Application/chrome.exe"
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/CODE_FILES/HTML_Files
+$ gchrome .
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/CODE_FILES/HTML_Files
+$ gchrome travel.html

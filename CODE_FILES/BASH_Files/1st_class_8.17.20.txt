@@ -1,0 +1,604 @@
+############ 1st Class Bash Commands (8/17/2020) ###########
+
+eadob@MSI MINGW64 ~
+$ cd
+
+eadob@MSI MINGW64 ~
+$ ls
+'3D Objects'/
+ anaconda3/
+ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ IntelGraphicsProfiles/
+ Links/
+'Local Settings'@
+ MicrosoftEdgeBackups/
+ miniconda3/
+ Music/
+'My Documents'@
+ NetHood@
+ NTUSER.DAT
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ NTUSER.DAT{fd9a35db-49fe-11e9-aa2c-248a07783950}.TM.blf
+ NTUSER.DAT{fd9a35db-49fe-11e9-aa2c-248a07783950}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{fd9a35db-49fe-11e9-aa2c-248a07783950}.TMContainer00000000000000000002.regtrans-ms
+ ntuser.ini
+ OneDrive/
+ Pictures/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+ source/
+'Start Menu'@
+ Templates@
+ Videos/
+
+eadob@MSI MINGW64 ~
+$ ls --help
+Usage: ls [OPTION]... [FILE]...
+List information about the FILEs (the current directory by default).
+Sort entries alphabetically if none of -cftuvSUX nor --sort is specified.
+
+Mandatory arguments to long options are mandatory for short options too.
+  -a, --all                  do not ignore entries starting with .
+  -A, --almost-all           do not list implied . and ..
+      --author               with -l, print the author of each file
+  -b, --escape               print C-style escapes for nongraphic characters
+      --block-size=SIZE      with -l, scale sizes by SIZE when printing them;
+                               e.g., '--block-size=M'; see SIZE format below
+  -B, --ignore-backups       do not list implied entries ending with ~
+  -c                         with -lt: sort by, and show, ctime (time of last
+                               modification of file status information);
+                               with -l: show ctime and sort by name;
+                               otherwise: sort by ctime, newest first
+  -C                         list entries by columns
+      --color[=WHEN]         colorize the output; WHEN can be 'always' (default
+                               if omitted), 'auto', or 'never'; more info below
+  -d, --directory            list directories themselves, not their contents
+  -D, --dired                generate output designed for Emacs' dired mode
+  -f                         do not sort, enable -aU, disable -ls --color
+  -F, --classify             append indicator (one of */=>@|) to entries
+      --file-type            likewise, except do not append '*'
+      --format=WORD          across -x, commas -m, horizontal -x, long -l,
+                               single-column -1, verbose -l, vertical -C
+      --full-time            like -l --time-style=full-iso
+  -g                         like -l, but do not list owner
+      --group-directories-first
+                             group directories before files;
+                               can be augmented with a --sort option, but any
+                               use of --sort=none (-U) disables grouping
+  -G, --no-group             in a long listing, don't print group names
+  -h, --human-readable       with -l and -s, print sizes like 1K 234M 2G etc.
+      --si                   likewise, but use powers of 1000 not 1024
+  -H, --dereference-command-line
+                             follow symbolic links listed on the command line
+      --dereference-command-line-symlink-to-dir
+                             follow each command line symbolic link
+                               that points to a directory
+      --hide=PATTERN         do not list implied entries matching shell PATTERN
+                               (overridden by -a or -A)
+      --hyperlink[=WHEN]     hyperlink file names; WHEN can be 'always'
+                               (default if omitted), 'auto', or 'never'
+      --indicator-style=WORD  append indicator with style WORD to entry names:
+                               none (default), slash (-p),
+                               file-type (--file-type), classify (-F)
+  -i, --inode                print the index number of each file
+  -I, --ignore=PATTERN       do not list implied entries matching shell PATTERN
+  -k, --kibibytes            default to 1024-byte blocks for disk usage;
+                               used only with -s and per directory totals
+  -l                         use a long listing format
+  -L, --dereference          when showing file information for a symbolic
+                               link, show information for the file the link
+                               references rather than for the link itself
+  -m                         fill width with a comma separated list of entries
+  -n, --numeric-uid-gid      like -l, but list numeric user and group IDs
+  -N, --literal              print entry names without quoting
+  -o                         like -l, but do not list group information
+  -p, --indicator-style=slash
+                             append / indicator to directories
+  -q, --hide-control-chars   print ? instead of nongraphic characters
+      --show-control-chars   show nongraphic characters as-is (the default,
+                               unless program is 'ls' and output is a terminal)
+  -Q, --quote-name           enclose entry names in double quotes
+      --quoting-style=WORD   use quoting style WORD for entry names:
+                               literal, locale, shell, shell-always,
+                               shell-escape, shell-escape-always, c, escape
+                               (overrides QUOTING_STYLE environment variable)
+  -r, --reverse              reverse order while sorting
+  -R, --recursive            list subdirectories recursively
+  -s, --size                 print the allocated size of each file, in blocks
+  -S                         sort by file size, largest first
+      --sort=WORD            sort by WORD instead of name: none (-U), size (-S),
+                               time (-t), version (-v), extension (-X)
+      --time=WORD            change the default of using modification times;
+                               access time (-u): atime, access, use;
+                               change time (-c): ctime, status;
+                               birth time: birth, creation;
+                             with -l, WORD determines which time to show;
+                             with --sort=time, sort by WORD (newest first)
+      --time-style=TIME_STYLE  time/date format with -l; see TIME_STYLE below
+  -t                         sort by time, newest first; see --time
+  -T, --tabsize=COLS         assume tab stops at each COLS instead of 8
+  -u                         with -lt: sort by, and show, access time;
+                               with -l: show access time and sort by name;
+                               otherwise: sort by access time, newest first
+  -U                         do not sort; list entries in directory order
+  -v                         natural sort of (version) numbers within text
+  -w, --width=COLS           set output width to COLS.  0 means no limit
+  -x                         list entries by lines instead of by columns
+  -X                         sort alphabetically by entry extension
+  -Z, --context              print any security context of each file
+  -1                         list one file per line.  Avoid '\n' with -q or -b
+      --append-exe           append .exe if cygwin magic was needed
+      --help     display this help and exit
+      --version  output version information and exit
+
+The SIZE argument is an integer and optional unit (example: 10K is 10*1024).
+Units are K,M,G,T,P,E,Z,Y (powers of 1024) or KB,MB,... (powers of 1000).
+Binary prefixes can be used, too: KiB=K, MiB=M, and so on.
+
+The TIME_STYLE argument can be full-iso, long-iso, iso, locale, or +FORMAT.
+FORMAT is interpreted like in date(1).  If FORMAT is FORMAT1<newline>FORMAT2,
+then FORMAT1 applies to non-recent files and FORMAT2 to recent files.
+TIME_STYLE prefixed with 'posix-' takes effect only outside the POSIX locale.
+Also the TIME_STYLE environment variable sets the default style to use.
+
+Using color to distinguish file types is disabled both by default and
+with --color=never.  With --color=auto, ls emits color codes only when
+standard output is connected to a terminal.  The LS_COLORS environment
+variable can change the settings.  Use the dircolors command to set it.
+
+Exit status:
+ 0  if OK,
+ 1  if minor problems (e.g., cannot access subdirectory),
+ 2  if serious trouble (e.g., cannot access command-line argument).
+
+GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
+Full documentation <https://www.gnu.org/software/coreutils/ls>
+or available locally via: info '(coreutils) ls invocation'
+
+eadob@MSI MINGW64 ~
+$ mkdir LionKing
+
+eadob@MSI MINGW64 ~
+$ cd LionKing
+
+eadob@MSI MINGW64 ~/LionKing
+$ ls
+
+eadob@MSI MINGW64 ~/LionKing
+$ mkdir GoodLion
+
+eadob@MSI MINGW64 ~/LionKing
+$ mkdir BadLion
+
+eadob@MSI MINGW64 ~/LionKing
+$ ls
+BadLion/  GoodLion/
+
+eadob@MSI MINGW64 ~/LionKing
+$ ls -la
+total 12
+drwxr-xr-x 1 eadob 197609 0 Aug 17 19:26 ./
+drwxr-xr-x 1 eadob 197609 0 Aug 17 19:25 ../
+drwxr-xr-x 1 eadob 197609 0 Aug 17 19:26 BadLion/
+drwxr-xr-x 1 eadob 197609 0 Aug 17 19:26 GoodLion/
+
+eadob@MSI MINGW64 ~/LionKing
+$ touch simba.html
+
+eadob@MSI MINGW64 ~/LionKing
+$ ls
+BadLion/  GoodLion/  simba.html
+
+eadob@MSI MINGW64 ~/LionKing
+$ cd c:/users/desktop
+bash: cd: c:/users/desktop: No such file or directory
+
+eadob@MSI MINGW64 ~/LionKing
+$ cd c/Users/Desktop
+bash: cd: c/Users/Desktop: No such file or directory
+
+eadob@MSI MINGW64 ~/LionKing
+$ ls
+BadLion/  GoodLion/  simba.html
+
+eadob@MSI MINGW64 ~/LionKing
+$ ^C
+
+eadob@MSI MINGW64 ~/LionKing
+$ ls
+BadLion/  GoodLion/  simba.html
+
+eadob@MSI MINGW64 ~/LionKing
+$ ls -l
+total 0
+drwxr-xr-x 1 eadob 197609 0 Aug 17 19:26 BadLion/
+drwxr-xr-x 1 eadob 197609 0 Aug 17 19:26 GoodLion/
+-rw-r--r-- 1 eadob 197609 0 Aug 17 19:32 simba.html
+
+eadob@MSI MINGW64 ~/LionKing
+$ touch mufasa.html scar.jpg
+
+eadob@MSI MINGW64 ~/LionKing
+$ ls
+BadLion/  GoodLion/  mufasa.html  scar.jpg  simba.html
+
+eadob@MSI MINGW64 ~/LionKing
+$ $ pwd
+bash: $: command not found
+
+eadob@MSI MINGW64 ~/LionKing
+$ pwd
+/c/Users/eadob/LionKing
+
+eadob@MSI MINGW64 ~/LionKing
+$ ls ./
+BadLion/  GoodLion/  mufasa.html  scar.jpg  simba.html
+
+eadob@MSI MINGW64 ~/LionKing
+$ ls ../
+'3D Objects'/
+ anaconda3/
+ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ IntelGraphicsProfiles/
+ Links/
+ LionKing/
+'Local Settings'@
+ MicrosoftEdgeBackups/
+ miniconda3/
+ Music/
+'My Documents'@
+ NetHood@
+ NTUSER.DAT
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ NTUSER.DAT{fd9a35db-49fe-11e9-aa2c-248a07783950}.TM.blf
+ NTUSER.DAT{fd9a35db-49fe-11e9-aa2c-248a07783950}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{fd9a35db-49fe-11e9-aa2c-248a07783950}.TMContainer00000000000000000002.regtrans-ms
+ ntuser.ini
+ OneDrive/
+ Pictures/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+ source/
+'Start Menu'@
+ Templates@
+ Videos/
+
+eadob@MSI MINGW64 ~/LionKing
+$ ls
+BadLion/  GoodLion/  mufasa.html  scar.jpg  simba.html
+
+eadob@MSI MINGW64 ~/LionKing
+$ ^C
+
+eadob@MSI MINGW64 ~/LionKing
+$ mv scar.jpg ../BadLion/
+mv: cannot move 'scar.jpg' to '../BadLion/': No such file or directory
+
+eadob@MSI MINGW64 ~/LionKing
+$ mv scar.jpg ../BadLion/
+mv: cannot move 'scar.jpg' to '../BadLion/': No such file or directory
+
+eadob@MSI MINGW64 ~/LionKing
+$ mv scar.jpg ./BadLion/
+
+eadob@MSI MINGW64 ~/LionKing
+$ ls
+BadLion/  GoodLion/  mufasa.html  simba.html
+
+eadob@MSI MINGW64 ~/LionKing
+$ ls BadLion
+scar.jpg
+
+eadob@MSI MINGW64 ~/LionKing
+$ cd ..
+
+eadob@MSI MINGW64 ~
+$ cd LionKing
+
+eadob@MSI MINGW64 ~/LionKing
+$ cd BadLion
+
+eadob@MSI MINGW64 ~/LionKing/BadLion
+$ ls
+scar.jpg
+
+eadob@MSI MINGW64 ~/LionKing/BadLion
+$ cd ..
+
+eadob@MSI MINGW64 ~/LionKing
+$ ls
+BadLion/  GoodLion/  mufasa.html  simba.html
+
+eadob@MSI MINGW64 ~/LionKing
+$ rm * .html
+rm: cannot remove 'BadLion': Is a directory
+rm: cannot remove 'GoodLion': Is a directory
+rm: cannot remove '.html': No such file or directory
+
+eadob@MSI MINGW64 ~/LionKing
+$ ls
+BadLion/  GoodLion/
+
+eadob@MSI MINGW64 ~/LionKing
+$ cd BadLion
+
+eadob@MSI MINGW64 ~/LionKing/BadLion
+$ ls
+scar.jpg
+
+eadob@MSI MINGW64 ~/LionKing/BadLion
+$ cd ./
+
+eadob@MSI MINGW64 ~/LionKing/BadLion
+$ ls
+scar.jpg
+
+eadob@MSI MINGW64 ~/LionKing/BadLion
+$ cd ..
+
+eadob@MSI MINGW64 ~/LionKing
+$ ls
+BadLion/  GoodLion/
+
+eadob@MSI MINGW64 ~/LionKing
+$ cd ..
+
+eadob@MSI MINGW64 ~
+$ rm -r LionKing/
+
+eadob@MSI MINGW64 ~
+$ ls
+'3D Objects'/
+ anaconda3/
+ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ IntelGraphicsProfiles/
+ Links/
+'Local Settings'@
+ MicrosoftEdgeBackups/
+ miniconda3/
+ Music/
+'My Documents'@
+ NetHood@
+ NTUSER.DAT
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ NTUSER.DAT{fd9a35db-49fe-11e9-aa2c-248a07783950}.TM.blf
+ NTUSER.DAT{fd9a35db-49fe-11e9-aa2c-248a07783950}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{fd9a35db-49fe-11e9-aa2c-248a07783950}.TMContainer00000000000000000002.regtrans-ms
+ ntuser.ini
+ OneDrive/
+ Pictures/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+ source/
+'Start Menu'@
+ Templates@
+ Videos/
+
+eadob@MSI MINGW64 ~
+$ ls -l
+total 9329
+drwxr-xr-x 1 eadob 197609       0 Aug 12 08:56 '3D Objects'/
+drwxr-xr-x 1 eadob 197609       0 Aug 16 11:15  anaconda3/
+drwxr-xr-x 1 eadob 197609       0 Aug 11 16:06  AppData/
+lrwxrwxrwx 1 eadob 197609      30 Aug 11 16:06 'Application Data' -> /c/Users/eadob/AppData/Roaming/
+drwxr-xr-x 1 eadob 197609       0 Aug 12 08:56  Contacts/
+lrwxrwxrwx 1 eadob 197609      58 Aug 11 16:06  Cookies -> /c/Users/eadob/AppData/Local/Microsoft/Windows/INetCookies/
+drwxr-xr-x 1 eadob 197609       0 Aug 17 02:19  Desktop/
+drwxr-xr-x 1 eadob 197609       0 Aug 17 18:16  Documents/
+drwxr-xr-x 1 eadob 197609       0 Aug 17 18:01  Downloads/
+drwxr-xr-x 1 eadob 197609       0 Aug 12 08:56  Favorites/
+drwxr-xr-x 1 eadob 197609       0 Aug 17 02:19  IntelGraphicsProfiles/
+drwxr-xr-x 1 eadob 197609       0 Aug 12 08:56  Links/
+lrwxrwxrwx 1 eadob 197609      28 Aug 11 16:06 'Local Settings' -> /c/Users/eadob/AppData/Local/
+drwxr-xr-x 1 eadob 197609       0 Aug 11 16:27  MicrosoftEdgeBackups/
+drwxr-xr-x 1 eadob 197609       0 Aug 12 17:39  miniconda3/
+drwxr-xr-x 1 eadob 197609       0 Aug 12 08:56  Music/
+lrwxrwxrwx 1 eadob 197609      24 Aug 11 16:06 'My Documents' -> /c/Users/eadob/Documents/
+lrwxrwxrwx 1 eadob 197609      66 Aug 11 16:06  NetHood -> '/c/Users/eadob/AppData/Roaming/Microsoft/Windows/Network Shortcuts'/
+-rw-r--r-- 1 eadob 197609 5505024 Aug 17 02:19  NTUSER.DAT
+-rw-r--r-- 1 eadob 197609 1418240 Aug 11 16:06  ntuser.dat.LOG1
+-rw-r--r-- 1 eadob 197609 1433600 Aug 11 16:06  ntuser.dat.LOG2
+-rw-r--r-- 1 eadob 197609   65536 Aug 11 16:06  NTUSER.DAT{fd9a35db-49fe-11e9-aa2c-248a07783950}.TM.blf
+-rw-r--r-- 1 eadob 197609  524288 Aug 11 16:06  NTUSER.DAT{fd9a35db-49fe-11e9-aa2c-248a07783950}.TMContainer00000000000000000001.regtrans-ms
+-rw-r--r-- 1 eadob 197609  524288 Aug 11 16:06  NTUSER.DAT{fd9a35db-49fe-11e9-aa2c-248a07783950}.TMContainer00000000000000000002.regtrans-ms
+-rw-r--r-- 1 eadob 197609      20 Aug 11 16:06  ntuser.ini
+drwxr-xr-x 1 eadob 197609       0 Aug 17 14:58  OneDrive/
+drwxr-xr-x 1 eadob 197609       0 Aug 12 08:56  Pictures/
+lrwxrwxrwx 1 eadob 197609      66 Aug 11 16:06  PrintHood -> '/c/Users/eadob/AppData/Roaming/Microsoft/Windows/Printer Shortcuts'/
+lrwxrwxrwx 1 eadob 197609      55 Aug 11 16:06  Recent -> /c/Users/eadob/AppData/Roaming/Microsoft/Windows/Recent/
+drwxr-xr-x 1 eadob 197609       0 Aug 12 08:56 'Saved Games'/
+drwxr-xr-x 1 eadob 197609       0 Aug 12 08:56  Searches/
+lrwxrwxrwx 1 eadob 197609      55 Aug 11 16:06  SendTo -> /c/Users/eadob/AppData/Roaming/Microsoft/Windows/SendTo/
+drwxr-xr-x 1 eadob 197609       0 Aug 17 18:17  source/
+lrwxrwxrwx 1 eadob 197609      59 Aug 11 16:06 'Start Menu' -> '/c/Users/eadob/AppData/Roaming/Microsoft/Windows/Start Menu'/
+lrwxrwxrwx 1 eadob 197609      58 Aug 11 16:06  Templates -> /c/Users/eadob/AppData/Roaming/Microsoft/Windows/Templates/
+drwxr-xr-x 1 eadob 197609       0 Aug 12 08:56  Videos/
+
+eadob@MSI MINGW64 ~
+$ ^C
+
+eadob@MSI MINGW64 ~
+$ cd /c/Users/eadob/Desktop/
+
+eadob@MSI MINGW64 ~/Desktop
+$ cd GAP - Program
+bash: cd: too many arguments
+
+eadob@MSI MINGW64 ~/Desktop
+$ cd GAP_-_Program
+bash: cd: GAP_-_Program: No such file or directory
+
+eadob@MSI MINGW64 ~/Desktop
+$ cd "GAP - Program"
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program
+$ ls
+'1. Code Immersion (CI)'/  '2. Data Science'/  'Classes Links.docx'
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program
+$ cd "Code Immersion (CI)"
+bash: cd: Code Immersion (CI): No such file or directory
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program
+$ cd "1. Code Immersion (CI)'"
+bash: cd: 1. Code Immersion (CI)': No such file or directory
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program
+$ ^C
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program
+$ cd '1. Code Immersion (CI)'
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)
+$ mkdir InClassWork
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)
+$ ls
+ ASSIGNMENTS/
+ CODE_FILES/
+'GAP_-_Emmanuel_Dadzie_-_PT_.NET_CI_08.17.20_-_MM (All signed).pdf'
+ GAP_-_Emmanuel_Dadzie_-_PT_.NET_CI_08.17.20_-_MM.pdf
+ InClassWork/
+'NET Pre-Course Work.pdf'
+ NOTE/
+ PROJECTS/
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)
+$ cd InClassWork
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/InClassWork
+$ touch 1stClassCodes.txt
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/InClassWork
+$ ls
+1stClassCodes.txt
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/InClassWork
+$ cd..
+bash: cd..: command not found
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/InClassWork
+$ cd ..
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)
+$ cd InClassWork
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/InClassWork
+$ ls
+1stClassCodes.txt
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/InClassWork
+$ cd ..
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)
+$ ls
+ ASSIGNMENTS/
+ CODE_FILES/
+'GAP_-_Emmanuel_Dadzie_-_PT_.NET_CI_08.17.20_-_MM (All signed).pdf'
+ GAP_-_Emmanuel_Dadzie_-_PT_.NET_CI_08.17.20_-_MM.pdf
+ InClassWork/
+'NET Pre-Course Work.pdf'
+ NOTE/
+ PROJECTS/
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)
+$ cd CODE_FILES
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/CODE_FILES
+$ mkdir HTML_Files
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/CODE_FILES
+$ mkdir BASH_Files
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/CODE_FILES
+$ cd HTML_Files
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/CODE_FILES/HTML_Files
+$ ls
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/CODE_FILES/HTML_Files
+$ touch travel.html
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/CODE_FILES/HTML_Files
+$ ls
+travel.html
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/CODE_FILES/HTML_Files
+$ open-sublime-travel.html
+bash: open-sublime-travel.html: command not found
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/CODE_FILES/HTML_Files
+$ open-"Sublime Test 3"-travel.html
+bash: open-Sublime Test 3-travel.html: command not found
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/CODE_FILES/HTML_Files
+$ open -a "Google Chrome" index.html
+bash: open: command not found
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/CODE_FILES/HTML_Files
+$ open -a "Sublime Test 3" travel.html
+bash: open: command not found
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/CODE_FILES/HTML_Files
+$ open -a "Sublime Test 3" travel.html
+bash: open: command not found
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/CODE_FILES/HTML_Files
+$ open -a "Google Chrome" travel.html
+bash: open: command not found
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/CODE_FILES/HTML_Files
+$ open -a open -a
+bash: open: command not found
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/CODE_FILES/HTML_Files
+$  open-a "Google Chrome" travel.html
+bash: open-a: command not found
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/CODE_FILES/HTML_Files
+$ ls
+travel.html
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/CODE_FILES/HTML_Files
+$ open./travel.html
+bash: open./travel.html: No such file or directory
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/CODE_FILES/HTML_Files
+$ open -a "Google Chrome" travel.html
+bash: open: command not found
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)/CODE_FILES/HTML_Files
+$

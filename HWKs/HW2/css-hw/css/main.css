@@ -1,0 +1,91 @@
+body {
+    width: 1300px;
+    margin: auto;
+}
+
+nav {
+    height: 100px;
+    background: black;
+}
+
+nav div {
+    height: 100%;
+    float: left;
+    margin: auto;
+}
+
+nav h1, nav h2, nav h3 {
+    font-family: Arial;
+    font-size: 15px;
+    margin: auto;
+    color: white;
+}
+
+nav h1, nav h2 {
+    height: 100px;
+    line-height: 100px;
+    float: left;
+}
+
+nav h3 {
+    padding: 10px 5px;
+}
+
+nav h1 a, nav h2 a, nav h3 a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+}
+
+nav h1 a, nav h2 a {
+    height: 100px;
+    line-height: 100px;
+    padding: 0 20px;
+}
+
+nav h1 a {
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: normal;
+}
+
+nav h3 img {
+    background-color: white;
+}
+
+nav a:hover {
+    background: gray;
+}
+
+#logo {
+    background: red;
+}
+
+#search-box {
+    padding: 0 20px;
+    margin: 30px auto;
+    height: 100px;
+}
+
+#search-box input {
+    width: 220px;
+}
+
+#search-box input, #search-box button {
+    height: 30px;
+    border: none;
+    float: left;
+}
+
+#search-box button {
+    width: 30px;
+    background-color: red;
+}
+
+#member-area-links {
+    float: right;
+    margin: 10px auto 0;
+    text-align: right;
+}
+
+

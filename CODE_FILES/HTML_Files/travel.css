@@ -1,0 +1,41 @@
+/*
+table, th, td {
+  border: 1px solid black;
+}
+
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+*/
+
+h1 {
+	color: red;
+}
+
+.myclass{
+	font-weight: bold;
+	font-size: 30px;
+}
+
+#myId{
+	width: 500px;
+	height: 250px;
+	border: 1px solid border-collapse;
+}
+

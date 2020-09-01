@@ -1,0 +1,136 @@
+####################### CODE FOR ASSESSMENT 1 #####################
+
+
+eadob@MSI MINGW64 ~
+$ cd directories
+
+eadob@MSI MINGW64 ~/directories
+$ cd Monkeys/hate
+
+eadob@MSI MINGW64 ~/directories/Monkeys/hate
+$ cat bones.html
+
+eadob@MSI MINGW64 ~/directories/Monkeys/hate
+$ bones.html
+bash: bones.html: command not found
+
+eadob@MSI MINGW64 ~/directories/Monkeys/hate
+$ start bones.html
+
+eadob@MSI MINGW64 ~/directories/Monkeys/hate
+$ notepad bones.html
+
+eadob@MSI MINGW64 ~/directories/Monkeys/hate
+$ cat bones.html
+<!DOCTYPE html>
+<html>
+<head>
+        <title>My Travels</title>
+        <link rel="stylesheet" type="text/css" href="travel.css">
+</head>
+<body>
+        <h1>You Cannot Travel Due to Corona</h1>
+        <p class="my class">This site is all about where I want to travel.</p>
+        <h2>Here are some places I'd like to visit</h2>
+
+        <ul id="myId">
+                <li class="myclass">Spain</li>
+                <li>Italy</li>
+                <li>Aruba</li>
+                <li>Ghana</li>
+        </ul>
+
+        <a href="https://google.com" target="_blank">Go to Google</a>
+
+        <!-- -->
+        <li>
+                <a href="https://developer.mozillademos.org/en-US" target="_blank">Some link for flags of country</a>
+        </li>
+
+        <li>
+                <img src="http" width="50">
+                <a href="" target="_blank">Spain</a>
+        </li>
+
+<table style="width:60%">
+        <link rel="stylesheet" href="travel.css">
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th>
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>94</td>
+  </tr>
+</table>
+</body>
+</html>
+eadob@MSI MINGW64 ~/directories/Monkeys/hate
+$ print bones.html
+Unable to initialize device PRN
+
+eadob@MSI MINGW64 ~/directories/Monkeys/hate
+$ echo bones.html
+bones.html
+
+eadob@MSI MINGW64 ~/directories/Monkeys/hate
+$ cat bones.html
+<!DOCTYPE html>
+<html>
+<head>
+        <title>My Travels</title>
+        <link rel="stylesheet" type="text/css" href="travel.css">
+</head>
+<body>
+        <h1>You Cannot Travel Due to Corona</h1>
+        <p class="my class">This site is all about where I want to travel.</p>
+        <h2>Here are some places I'd like to visit</h2>
+
+        <ul id="myId">
+                <li class="myclass">Spain</li>
+                <li>Italy</li>
+                <li>Aruba</li>
+                <li>Ghana</li>
+        </ul>
+
+        <a href="https://google.com" target="_blank">Go to Google</a>
+
+        <!-- -->
+        <li>
+                <a href="https://developer.mozillademos.org/en-US" target="_blank">Some link for flags of country</a>
+        </li>
+
+        <li>
+                <img src="http" width="50">
+                <a href="" target="_blank">Spain</a>
+        </li>
+
+<table style="width:60%">
+        <link rel="stylesheet" href="travel.css">
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th>
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>94</td>
+  </tr>
+</table>
+</body>
+</html>
+eadob@MSI MINGW64 ~/directories/Monkeys/hate
+$

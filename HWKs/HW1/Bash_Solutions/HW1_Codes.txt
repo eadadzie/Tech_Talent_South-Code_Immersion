@@ -1,0 +1,283 @@
+eadob@MSI MINGW64 ~
+$ mkdir -p directories
+
+eadob@MSI MINGW64 ~
+$ cd directories
+
+eadob@MSI MINGW64 ~/directories
+$ mkdir Dogs e-text images Monkeys
+
+eadob@MSI MINGW64 ~/directories
+$ touch forbidden.txt index.txt
+
+eadob@MSI MINGW64 ~/directories
+$ ls
+Dogs/  e-text/  forbidden.txt  images/  index.txt  Monkeys/
+
+eadob@MSI MINGW64 ~/directories
+$ cd Dogs
+
+eadob@MSI MINGW64 ~/directories/Dogs
+$ mkdir hate like
+
+eadob@MSI MINGW64 ~/directories/Dogs
+$ cd hate
+
+eadob@MSI MINGW64 ~/directories/Dogs/hate
+$ touch bananas.html bones.html
+
+eadob@MSI MINGW64 ~/directories/Dogs/hate
+$ ls
+bananas.html  bones.html
+
+eadob@MSI MINGW64 ~/directories/Dogs/hate
+$ cd ../
+
+eadob@MSI MINGW64 ~/directories/Dogs
+$ cd like
+
+eadob@MSI MINGW64 ~/directories/Dogs/like
+$ touch bananas.html bones.html
+
+eadob@MSI MINGW64 ~/directories/Dogs/like
+$ ls
+bananas.html  bones.html
+
+eadob@MSI MINGW64 ~/directories/Dogs/like
+$ cd ../../
+
+eadob@MSI MINGW64 ~/directories
+$ cd e-text
+
+eadob@MSI MINGW64 ~/directories/e-text
+$ mkdir "Maugham, W.Somerset" "OReilly, Augustine" "Poe, EdgarAllen"
+
+eadob@MSI MINGW64 ~/directories/e-text
+$ touch gutindex.all
+
+eadob@MSI MINGW64 ~/directories/e-text
+$ ls
+ gutindex.all           'OReilly, Augustine'/
+'Maugham, W.Somerset'/  'Poe, EdgarAllen'/
+
+eadob@MSI MINGW64 ~/directories/e-text
+$ cd ../
+
+eadob@MSI MINGW64 ~/directories
+$ cd images
+
+eadob@MSI MINGW64 ~/directories/images
+$ mkdir cartoons clipart
+
+eadob@MSI MINGW64 ~/directories/images
+$ cd cartoons
+
+eadob@MSI MINGW64 ~/directories/images/cartoons
+$ touch df950523.jpg df971202.jpg
+
+eadob@MSI MINGW64 ~/directories/images/cartoons
+$ cd ../
+
+eadob@MSI MINGW64 ~/directories/images
+$ cd clipart
+
+eadob@MSI MINGW64 ~/directories/images/clipart
+$ mkdir animals food
+
+eadob@MSI MINGW64 ~/directories/images/clipart
+$ cd animals
+
+eadob@MSI MINGW64 ~/directories/images/clipart/animals
+$ touch dog.gif monkey.gif
+
+eadob@MSI MINGW64 ~/directories/images/clipart/animals
+$ cd ../food/
+
+eadob@MSI MINGW64 ~/directories/images/clipart/food
+$ touch bananas.gif bone.gif
+
+eadob@MSI MINGW64 ~/directories/images/clipart/food
+$ ls
+bananas.gif  bone.gif
+
+eadob@MSI MINGW64 ~/directories/images/clipart/food
+$ cd ../directories/
+bash: cd: ../directories/: No such file or directory
+
+eadob@MSI MINGW64 ~/directories/images/clipart/food
+$ cd ../../../e-text/
+
+eadob@MSI MINGW64 ~/directories/e-text
+$ cd "Maugham, W.Somerset"
+
+eadob@MSI MINGW64 ~/directories/e-text/Maugham, W.Somerset
+$ touch moona10.txt moona10.zip
+
+eadob@MSI MINGW64 ~/directories/e-text/Maugham, W.Somerset
+$ cd ../"OReilly, Augustine"/
+
+eadob@MSI MINGW64 ~/directories/e-text/OReilly, Augustine
+$ touch "Alvira  The Heroine of Vesuvius.txt"
+
+eadob@MSI MINGW64 ~/directories/e-text/OReilly, Augustine
+$ cd ../"Poe, EdgarAllen"/
+
+eadob@MSI MINGW64 ~/directories/e-text/Poe, EdgarAllen
+$ touch poev10.txt poev10.zip story2.txt
+
+eadob@MSI MINGW64 ~/directories/e-text/Poe, EdgarAllen
+$ ls
+poev10.txt  poev10.zip  story2.txt
+
+eadob@MSI MINGW64 ~/directories/e-text/Poe, EdgarAllen
+$ cd ../../Monkeys/
+
+eadob@MSI MINGW64 ~/directories/Monkeys
+$ mkdir hate like
+
+eadob@MSI MINGW64 ~/directories/Monkeys
+$ cd hate
+
+eadob@MSI MINGW64 ~/directories/Monkeys/hate
+$ touch bananas.html bones.html
+
+eadob@MSI MINGW64 ~/directories/Monkeys/hate
+$ cd ../like/
+
+eadob@MSI MINGW64 ~/directories/Monkeys/like
+$ touch bananas.html bones.html
+
+eadob@MSI MINGW64 ~/directories/Monkeys/like
+$ ls
+bananas.html  bones.html
+
+eadob@MSI MINGW64 ~/directories/Monkeys/like
+$ cd ../../
+
+eadob@MSI MINGW64 ~/directories
+$ ls
+Dogs/  e-text/  forbidden.txt  images/  index.txt  Monkeys/
+
+eadob@MSI MINGW64 ~/directories
+$ echo "Question 2 Solutions"
+Question 2 Solutions
+
+eadob@MSI MINGW64 ~/directories
+$ cd images/clipart/food/
+
+eadob@MSI MINGW64 ~/directories/images/clipart/food
+$ ls
+bananas.gif  bone.gif
+
+eadob@MSI MINGW64 ~/directories/images/clipart/food
+$ echo "Question 3 Solution"
+Question 3 Solution
+
+eadob@MSI MINGW64 ~/directories/images/clipart/food
+$ cd ../../../e-text/"Poe, EdgarAllen"/
+
+eadob@MSI MINGW64 ~/directories/e-text/Poe, EdgarAllen
+$ echo "Question 4"
+Question 4
+
+eadob@MSI MINGW64 ~/directories/e-text/Poe, EdgarAllen
+$ ls
+poev10.txt  poev10.zip  story2.txt
+
+eadob@MSI MINGW64 ~/directories/e-text/Poe, EdgarAllen
+$ echo "Question 5"
+Question 5
+
+eadob@MSI MINGW64 ~/directories/e-text/Poe, EdgarAllen
+$ cd ../../images/
+
+eadob@MSI MINGW64 ~/directories/images
+$ pwd
+/c/Users/eadob/directories/images
+
+eadob@MSI MINGW64 ~/directories/images
+$ echo "Question 6"
+Question 6
+
+eadob@MSI MINGW64 ~/directories/images
+$ touch photographs
+
+eadob@MSI MINGW64 ~/directories/images
+$ ls
+cartoons/  clipart/  photographs
+
+eadob@MSI MINGW64 ~/directories/images
+$ rm photographs
+
+eadob@MSI MINGW64 ~/directories/images
+$ ls
+cartoons/  clipart/
+
+eadob@MSI MINGW64 ~/directories/images
+$ mkdir photographs
+
+eadob@MSI MINGW64 ~/directories/images
+$ ls
+cartoons/  clipart/  photographs/
+
+eadob@MSI MINGW64 ~/directories/images
+$ echo "Question 7"
+Question 7
+
+eadob@MSI MINGW64 ~/directories/images
+$ cd photographs
+
+eadob@MSI MINGW64 ~/directories/images/photographs
+$ touch sunrise.jpg
+
+eadob@MSI MINGW64 ~/directories/images/photographs
+$ ls
+sunrise.jpg
+
+eadob@MSI MINGW64 ~/directories/images
+$ echo "Question 8"
+Question 8
+
+eadob@MSI MINGW64 ~/directories/images/photographs
+$ mv sunrise.jpg ../
+
+eadob@MSI MINGW64 ~/directories/images/photographs
+$ ls
+
+eadob@MSI MINGW64 ~/directories/images/photographs
+$ cd ../
+
+eadob@MSI MINGW64 ~/directories/images
+$ ls
+cartoons/  clipart/  photographs/  sunrise.jpg
+
+eadob@MSI MINGW64 ~/directories/images
+$ echo "Question 9"
+Question 9
+
+eadob@MSI MINGW64 ~/directories/images
+$ cd ../Monkeys/like/
+
+eadob@MSI MINGW64 ~/directories/Monkeys/like
+$ ls
+bananas.html  bones.html
+
+eadob@MSI MINGW64 ~/directories/Monkeys/like
+$ alias sublime="/c/Program\ Files/Sublime\ Text\ 3/sublime_text.exe"
+
+eadob@MSI MINGW64 ~/directories/Monkeys/like
+$ sublime .
+
+eadob@MSI MINGW64 ~/directories/Monkeys/like
+$ echo "Question 10"
+Question 10
+
+eadob@MSI MINGW64 ~/directories/Monkeys/like
+$ rm bananas.html
+
+eadob@MSI MINGW64 ~/directories/Monkeys/like
+$ ls
+bones.html
+
+eadob@MSI MINGW64 ~/directories/Monkeys/like
+$
