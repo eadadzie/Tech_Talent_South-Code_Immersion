@@ -1,0 +1,268 @@
+######## SETTING UP THE GITHUB REPO USING LOCAL FOLDER ##########
+
+eadob@MSI MINGW64 ~
+$ cd Desktop/"GAP - Program"/"1. Code Immersion (CI)"/
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)
+$ git remote add origin https://github.com/eadadzie/Tech_Talent_South-Code_Immersion.git
+fatal: not a git repository (or any of the parent directories): .git
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI)
+$ git init
+Initialized empty Git repository in C:/Users/eadob/Desktop/GAP - Program/1. Code Immersion (CI)/.git/
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI) (master)
+$ ^C
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI) (master)
+$ git remote add origin https://github.com/eadadzie/Tech_Talent_South-Code_Immersion.git
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI) (master)
+$ git remote -v
+origin  https://github.com/eadadzie/Tech_Talent_South-Code_Immersion.git (fetch)
+origin  https://github.com/eadadzie/Tech_Talent_South-Code_Immersion.git (push)
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI) (master)
+$ git push origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/eadadzie/Tech_Talent_South-Code_Immersion.git'
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI) (master)
+$ git config --global user.name eadadzie
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI) (master)
+$ git add .
+warning: LF will be replaced by CRLF in HWKs/HW2/css-hw/css/main.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in HWKs/HW2/css-hw/img/shopping-cart-icon.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in HWKs/HW2/css-hw/index.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in HWKs/HW3/personal_site/HW_3_Personal_website.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in HWKs/HW3/personal_site/Instructors_Solution/index.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in HWKs/HW3/twitter/index.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in NOTE/WEEK_2/Javascript_Coding/HTML5 Minimal1/HTML5 Minimal1/Content/bootstrap.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in NOTE/WEEK_2/Javascript_Coding/HTML5 Minimal1/HTML5 Minimal1/Content/scrolling-nav.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in NOTE/WEEK_2/Javascript_Coding/HTML5 Minimal1/HTML5 Minimal1/Scripts/bootstrap.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in NOTE/WEEK_2/Javascript_Coding/HTML5 Minimal1/HTML5 Minimal1/Scripts/jquery-3.3.1.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in NOTE/WEEK_2/Javascript_Coding/HTML5 Minimal1/HTML5 Minimal1/Scripts/scrolling-nav.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in NOTE/WEEK_2/Javascript_Coding/HTML5 Minimal1/HTML5 Minimal1/fonts/glyphicons-halflings-regular.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in NOTE/WEEK_2/bootstrap_intro/about_the_roaster.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in NOTE/WEEK_2/bootstrap_intro/css/bootstrap-grid.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in NOTE/WEEK_2/bootstrap_intro/css/bootstrap-grid.min.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in NOTE/WEEK_2/bootstrap_intro/css/bootstrap-reboot.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in NOTE/WEEK_2/bootstrap_intro/css/bootstrap-reboot.min.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in NOTE/WEEK_2/bootstrap_intro/css/bootstrap.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in NOTE/WEEK_2/bootstrap_intro/css/bootstrap.min.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in NOTE/WEEK_2/bootstrap_intro/css/main.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in NOTE/WEEK_2/bootstrap_intro/index.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in NOTE/WEEK_2/bootstrap_intro/js/bootstrap.bundle.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in NOTE/WEEK_2/bootstrap_intro/js/bootstrap.bundle.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in NOTE/WEEK_2/bootstrap_intro/js/bootstrap.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in NOTE/WEEK_2/bootstrap_intro/js/bootstrap.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in NOTE/WEEK_2/bootstrap_intro/order_coffee.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in NOTE/WEEK_2/good_coffee/about-the-roaster.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in NOTE/WEEK_2/good_coffee/css/styles.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in NOTE/WEEK_2/good_coffee/index.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in NOTE/WEEK_2/good_coffee/order-coffee.html.
+The file will have its original line endings in your working directory
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI) (master)
+$ git push origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/eadadzie/Tech_Talent_South-Code_Immersion.git'
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI) (master)
+$ git commit -m "Added all files"
+[master (root-commit) 26146b7] Added all files
+ 149 files changed, 58431 insertions(+)
+ create mode 100644 ASSESSMENTS/ASSESS_1/Assess_1_Code.txt
+ create mode 100644 ASSESSMENTS/ASSESS_1/Bulleted_list_html.PNG
+ create mode 100644 ASSESSMENTS/ASSESS_1/Element_Position_Html.PNG
+ create mode 100644 ASSESSMENTS/ASSESS_1/HTTP_methods_html.PNG
+ create mode 100644 ASSESSMENTS/ASSESS_1/List_html.PNG
+ create mode 100644 ASSESSMENTS/ASSESS_1/Margin_&_Padding.PNG
+ create mode 100644 ASSESSMENTS/ASSESS_1/Q1.PNG
+ create mode 100644 ASSESSMENTS/ASSESS_1/Q10.PNG
+ create mode 100644 ASSESSMENTS/ASSESS_1/Q11.PNG
+ create mode 100644 ASSESSMENTS/ASSESS_1/Q12.PNG
+ create mode 100644 ASSESSMENTS/ASSESS_1/Q13.PNG
+ create mode 100644 ASSESSMENTS/ASSESS_1/Q14.PNG
+ create mode 100644 ASSESSMENTS/ASSESS_1/Q2.PNG
+ create mode 100644 ASSESSMENTS/ASSESS_1/Q3.PNG
+ create mode 100644 ASSESSMENTS/ASSESS_1/Q4.PNG
+ create mode 100644 ASSESSMENTS/ASSESS_1/Q5.PNG
+ create mode 100644 ASSESSMENTS/ASSESS_1/Q6.PNG
+ create mode 100644 ASSESSMENTS/ASSESS_1/Q7.PNG
+ create mode 100644 ASSESSMENTS/ASSESS_1/Q8.PNG
+ create mode 100644 ASSESSMENTS/ASSESS_1/Q9.PNG
+ create mode 100644 ASSESSMENTS/ASSESS_2/Assessment_2.js
+ create mode 100644 CODE_FILES/BASH_Files/1st_class_8.17.20.txt
+ create mode 100644 CODE_FILES/BASH_Files/Bash_Prac_01.txt
+ create mode 100644 CODE_FILES/ConsoleApp1/.vs/ConsoleApp1/DesignTimeBuild/.dtbcache.v2
+ create mode 100644 CODE_FILES/ConsoleApp1/.vs/ConsoleApp1/v16/.suo
+ create mode 100644 CODE_FILES/ConsoleApp1/ConsoleApp1.sln
+ create mode 100644 CODE_FILES/ConsoleApp1/ConsoleApp1/ConsoleApp1.csproj
+ create mode 100644 CODE_FILES/ConsoleApp1/ConsoleApp1/Program.cs
+ create mode 100644 CODE_FILES/ConsoleApp1/ConsoleApp1/obj/ConsoleApp1.csproj.nuget.dgspec.json
+ create mode 100644 CODE_FILES/ConsoleApp1/ConsoleApp1/obj/ConsoleApp1.csproj.nuget.g.props
+ create mode 100644 CODE_FILES/ConsoleApp1/ConsoleApp1/obj/ConsoleApp1.csproj.nuget.g.targets
+ create mode 100644 CODE_FILES/ConsoleApp1/ConsoleApp1/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs
+ create mode 100644 CODE_FILES/ConsoleApp1/ConsoleApp1/obj/Debug/netcoreapp3.1/ConsoleApp1.AssemblyInfo.cs
+ create mode 100644 CODE_FILES/ConsoleApp1/ConsoleApp1/obj/Debug/netcoreapp3.1/ConsoleApp1.AssemblyInfoInputs.cache
+ create mode 100644 CODE_FILES/ConsoleApp1/ConsoleApp1/obj/Debug/netcoreapp3.1/ConsoleApp1.assets.cache
+ create mode 100644 CODE_FILES/ConsoleApp1/ConsoleApp1/obj/Debug/netcoreapp3.1/ConsoleApp1.csprojAssemblyReference.cache
+ create mode 100644 CODE_FILES/ConsoleApp1/ConsoleApp1/obj/project.assets.json
+ create mode 100644 CODE_FILES/ConsoleApp1/ConsoleApp1/obj/project.nuget.cache
+ create mode 100644 CODE_FILES/HTML_Files/good_coffee/animate.css
+ create mode 100644 CODE_FILES/HTML_Files/good_coffee/index.html
+ create mode 100644 CODE_FILES/HTML_Files/good_coffee/location.html
+ create mode 100644 CODE_FILES/HTML_Files/good_coffee/main.css
+ create mode 100644 CODE_FILES/HTML_Files/good_coffee/maptrial.html
+ create mode 100644 CODE_FILES/HTML_Files/travel.css
+ create mode 100644 CODE_FILES/HTML_Files/travel.html
+ create mode 100644 GAP_-_Emmanuel_Dadzie_-_PT_.NET_CI_08.17.20_-_MM (All signed).pdf
+ create mode 100644 GAP_-_Emmanuel_Dadzie_-_PT_.NET_CI_08.17.20_-_MM.pdf
+ create mode 100644 HWKs/HW1/Bash_Solutions/Creating_Dir_&_Files_01.PNG
+ create mode 100644 HWKs/HW1/Bash_Solutions/Creating_Dir_&_Files_02.PNG
+ create mode 100644 HWKs/HW1/Bash_Solutions/Creating_Dir_&_Files_03.PNG
+ create mode 100644 HWKs/HW1/Bash_Solutions/Day1_homework.png
+ create mode 100644 HWKs/HW1/Bash_Solutions/HW1_Codes.txt
+ create mode 100644 HWKs/HW1/HTML_Solutions/HTML HW_01.PNG
+ create mode 100644 HWKs/HW1/HTML_Solutions/HTML_Solutions.txt
+ create mode 100644 HWKs/HW1/Questions_Bash_commands.docx
+ create mode 100644 HWKs/HW1/Questions_HTML Homework.pdf
+ create mode 100644 HWKs/HW2/HW2_Solution.rar
+ create mode 100644 HWKs/HW2/HW2_Solution/master_hd.css
+ create mode 100644 HWKs/HW2/HW2_Solution/masterhead.html
+ create mode 100644 HWKs/HW2/HW_2_Prac.css
+ create mode 100644 HWKs/HW2/HW_2_Prac.html
+ create mode 100644 HWKs/HW2/css-hw.zip24 kB ZipOpen file.url
+ create mode 100644 HWKs/HW2/css-hw/css/main.css
+ create mode 100644 HWKs/HW2/css-hw/img/Search-icon.png
+ create mode 100644 HWKs/HW2/css-hw/img/shopping-cart-icon.svg
+ create mode 100644 HWKs/HW2/css-hw/index.html
+ create mode 100644 HWKs/HW3/personal_site.zip2 kB ZipOpen file.url
+ create mode 100644 HWKs/HW3/personal_site/HW_3_Personal_website.css
+ create mode 100644 HWKs/HW3/personal_site/HW_3_Personal_website.html
+ create mode 100644 HWKs/HW3/personal_site/Instructors_Solution/index.html
+ create mode 100644 HWKs/HW3/personal_site/Instructors_Solution/styles.css
+ create mode 100644 HWKs/HW3/twitter.zip2 kB ZipOpen file.url
+ create mode 100644 HWKs/HW3/twitter/css/styles.css
+ create mode 100644 HWKs/HW3/twitter/index.html
+ create mode 100644 HWKs/HW4/Javascript_homework.pdf
+ create mode 100644 NET Pre-Course Work.pdf
+ create mode 100644 NOTE/WEEK_1/InClassWork/1stClassCodes.txt
+ create mode 100644 NOTE/WEEK_1/Intro to CSS.pdf
+ create mode 100644 NOTE/WEEK_1/Intro to HTML.pdf
+ create mode 100644 NOTE/WEEK_2/Bootstrap_Coding/Bootstrap_Alert_Tut.html
+ create mode 100644 NOTE/WEEK_2/Bootstrap_Coding/Bootstrap_Cards_Tut.html
+ create mode 100644 NOTE/WEEK_2/Bootstrap_Coding/Bootstrap_Columns_Tut.html
+ create mode 100644 NOTE/WEEK_2/Bootstrap_Coding/Bootstrap_Forms_Tut.html
+ create mode 100644 NOTE/WEEK_2/Bootstrap_Coding/Bootstrap_ListOrLink-Groups_Tut.html
+ create mode 100644 NOTE/WEEK_2/Bootstrap_Coding/Bootstrap_Modals_Tut.html
+ create mode 100644 NOTE/WEEK_2/Bootstrap_Coding/Bootstrap_Navbar_Tut.html
+ create mode 100644 NOTE/WEEK_2/Bootstrap_Coding/Bootstrap_Navigation_Options_Tut.html
+ create mode 100644 NOTE/WEEK_2/Bootstrap_Coding/Bootstrap_Tables_Tut.html
+ create mode 100644 NOTE/WEEK_2/Javascript_Coding/HTML5 Minimal1/.vs/HTML5 Minimal1/v16/.suo
+ create mode 100644 NOTE/WEEK_2/Javascript_Coding/HTML5 Minimal1/HTML5 Minimal1.sln
+ create mode 100644 NOTE/WEEK_2/Javascript_Coding/HTML5 Minimal1/HTML5 Minimal1/Content/Site.css
+ create mode 100644 NOTE/WEEK_2/Javascript_Coding/HTML5 Minimal1/HTML5 Minimal1/Content/bootstrap.css
+ create mode 100644 NOTE/WEEK_2/Javascript_Coding/HTML5 Minimal1/HTML5 Minimal1/Content/scrolling-nav.css
+ create mode 100644 NOTE/WEEK_2/Javascript_Coding/HTML5 Minimal1/HTML5 Minimal1/HTML5 Minimal1.csproj
+ create mode 100644 NOTE/WEEK_2/Javascript_Coding/HTML5 Minimal1/HTML5 Minimal1/Scripts/bootstrap.js
+ create mode 100644 NOTE/WEEK_2/Javascript_Coding/HTML5 Minimal1/HTML5 Minimal1/Scripts/jquery-3.3.1.js
+ create mode 100644 NOTE/WEEK_2/Javascript_Coding/HTML5 Minimal1/HTML5 Minimal1/Scripts/scrolling-nav.js
+ create mode 100644 NOTE/WEEK_2/Javascript_Coding/HTML5 Minimal1/HTML5 Minimal1/favicon.ico
+ create mode 100644 NOTE/WEEK_2/Javascript_Coding/HTML5 Minimal1/HTML5 Minimal1/fonts/glyphicons-halflings-regular.eot
+ create mode 100644 NOTE/WEEK_2/Javascript_Coding/HTML5 Minimal1/HTML5 Minimal1/fonts/glyphicons-halflings-regular.svg
+ create mode 100644 NOTE/WEEK_2/Javascript_Coding/HTML5 Minimal1/HTML5 Minimal1/fonts/glyphicons-halflings-regular.ttf
+ create mode 100644 NOTE/WEEK_2/Javascript_Coding/HTML5 Minimal1/HTML5 Minimal1/fonts/glyphicons-halflings-regular.woff
+ create mode 100644 NOTE/WEEK_2/Javascript_Coding/HTML5 Minimal1/HTML5 Minimal1/fonts/glyphicons-halflings-regular.woff2
+ create mode 100644 NOTE/WEEK_2/Javascript_Coding/HTML5 Minimal1/HTML5 Minimal1/index.html
+ create mode 100644 NOTE/WEEK_2/Javascript_Coding/InClass.html
+ create mode 100644 NOTE/WEEK_2/Javascript_Coding/Inclass_Code_01.js
+ create mode 100644 NOTE/WEEK_2/Javascript_Coding/main.js
+ create mode 100644 NOTE/WEEK_2/bootstrap_intro/about_the_roaster.html
+ create mode 100644 NOTE/WEEK_2/bootstrap_intro/css/bootstrap-grid.css
+ create mode 100644 NOTE/WEEK_2/bootstrap_intro/css/bootstrap-grid.css.map
+ create mode 100644 NOTE/WEEK_2/bootstrap_intro/css/bootstrap-grid.min.css
+ create mode 100644 NOTE/WEEK_2/bootstrap_intro/css/bootstrap-grid.min.css.map
+ create mode 100644 NOTE/WEEK_2/bootstrap_intro/css/bootstrap-reboot.css
+ create mode 100644 NOTE/WEEK_2/bootstrap_intro/css/bootstrap-reboot.css.map
+ create mode 100644 NOTE/WEEK_2/bootstrap_intro/css/bootstrap-reboot.min.css
+ create mode 100644 NOTE/WEEK_2/bootstrap_intro/css/bootstrap-reboot.min.css.map
+ create mode 100644 NOTE/WEEK_2/bootstrap_intro/css/bootstrap.css
+ create mode 100644 NOTE/WEEK_2/bootstrap_intro/css/bootstrap.css.map
+ create mode 100644 NOTE/WEEK_2/bootstrap_intro/css/bootstrap.min.css
+ create mode 100644 NOTE/WEEK_2/bootstrap_intro/css/bootstrap.min.css.map
+ create mode 100644 NOTE/WEEK_2/bootstrap_intro/css/main.css
+ create mode 100644 NOTE/WEEK_2/bootstrap_intro/index.html
+ create mode 100644 NOTE/WEEK_2/bootstrap_intro/js/bootstrap.bundle.js
+ create mode 100644 NOTE/WEEK_2/bootstrap_intro/js/bootstrap.bundle.js.map
+ create mode 100644 NOTE/WEEK_2/bootstrap_intro/js/bootstrap.bundle.min.js
+ create mode 100644 NOTE/WEEK_2/bootstrap_intro/js/bootstrap.bundle.min.js.map
+ create mode 100644 NOTE/WEEK_2/bootstrap_intro/js/bootstrap.js
+ create mode 100644 NOTE/WEEK_2/bootstrap_intro/js/bootstrap.js.map
+ create mode 100644 NOTE/WEEK_2/bootstrap_intro/js/bootstrap.min.js
+ create mode 100644 NOTE/WEEK_2/bootstrap_intro/js/bootstrap.min.js.map
+ create mode 100644 NOTE/WEEK_2/bootstrap_intro/order_coffee.html
+ create mode 100644 NOTE/WEEK_2/good_coffee/about-the-roaster.html
+ create mode 100644 NOTE/WEEK_2/good_coffee/css/styles.css
+ create mode 100644 NOTE/WEEK_2/good_coffee/index.html
+ create mode 100644 NOTE/WEEK_2/good_coffee/order-coffee.html
+ create mode 100644 NOTE/WEEK_2/week2-class-1-in-class-assignment.zip7 kB ZipOpen file.url
+ create mode 100644 NOTE/WEEK_3/jQuery Lecture.pdf
+ create mode 100644 NOTE/WEEK_3/jQuery/jQuery_note_code.html
+ create mode 100644 NOTE/WEEK_3/jQuery/jQuery_notes.js
+ create mode 100644 NOTE/WEEK_3/javascript_Coding/HW5_All_6_Solns.html
+ create mode 100644 NOTE/WEEK_3/javascript_Coding/HW5_Data_Struct_All.js
+ create mode 100644 NOTE/WEEK_3/javascript_Coding/HW5_Data_Struct_Exercise_1.js
+ create mode 100644 NOTE/WEEK_3/javascript_Coding/HW5_Data_Struct_Exercise_2.js
+ create mode 100644 NOTE/WEEK_3/javascript_Coding/HW5_Data_Struct_Exercise_3.js
+ create mode 100644 NOTE/WEEK_3/javascript_Coding/HW5_Func_Assign_All.js
+ create mode 100644 NOTE/WEEK_3/javascript_Coding/HW5_Func_Assign_Exercise_1.js
+ create mode 100644 NOTE/WEEK_3/javascript_Coding/HW5_Func_Assign_Exercise_2.js
+ create mode 100644 NOTE/WEEK_3/javascript_Coding/HW5_Func_Assign_Exercise_3.js
+ create mode 100644 NOTE/WEEK_3/javascript_Coding/Inclass_Code_02.js
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI) (master)
+$ git push origin master
+Enumerating objects: 199, done.
+Counting objects: 100% (199/199), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (185/185), done.
+Writing objects: 100% (199/199), 12.88 MiB | 1.42 MiB/s, done.
+Total 199 (delta 37), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (37/37), done.
+To https://github.com/eadadzie/Tech_Talent_South-Code_Immersion.git
+ * [new branch]      master -> master
+
+eadob@MSI MINGW64 ~/Desktop/GAP - Program/1. Code Immersion (CI) (master)
+$
