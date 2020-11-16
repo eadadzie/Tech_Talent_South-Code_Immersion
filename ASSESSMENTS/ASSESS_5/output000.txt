@@ -1,0 +1,12 @@
+FinanceEmployee info: Department - Finance, Name - Sam, Location - Seattle
+Sam is not on vacation
+Switching
+Sam is on vacation
+Switching
+Sam is not on vacation
+MarketingEmployee info: Department - Marketing, Name - Jane, Location - Miami
+Jane is not on vacation
+Switching
+Jane is on vacation
+Switching
+Jane is not on vacation

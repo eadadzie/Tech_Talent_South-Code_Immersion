@@ -1,0 +1,103 @@
+CREATE TABLE USER(
+UserID INTEger PRIMARY KEY AUTOINCREMENT NOT NULL,
+FirstName VARCHAR NOT NULL,
+LastName varchar NOT NULL,
+BirthPlace Varchar NOT NULL,
+CreatedAt Datetime NOT NULL,
+UpdatedAt DateTime NULL  
+);
+
+###########################################################################
+
+CREATE TABLE Favorite 
+(
+	FavoriteID INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, 
+	UserID INTEGER NOT NULL,
+	ArtistID INTEGER, 
+	AlbumID INTEGER,
+	SongID INTEGER,
+	GenreID INTEGER,
+	CreatedAt DATETIME NOT NULL,
+	UpdatedAt DATETIME NULL,
+	FOREIGN KEY (UserID) REFERENCES User (UserID),
+	FOREIGN KEY (ArtistID) REFERENCES artists (id),
+	FOREIGN KEY (AlbumID) REFERENCES albums (id),
+	FOREIGN KEY (SongID) REFERENCES songs (id),
+	FOREIGN KEY (GenreID) REFERENCES genres (id)
+);
+
+##########################################################################
+
+CREATE TABLE Song 
+(
+	SongID INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, 
+	name varchar NOT NULL,
+	Length float NOT NULL, 
+);
+
+##########################################################################
+
+## Q1
+SELECT * FROM USER;
+
+## Q2
+SELECT lastName FROM USER;
+
+## Q3
+SELECT * FROM Song
+WHERE (SongID % 2 = 0 AND  SongID > 50) OR (SongID % 2 = 1 AND  SongID < 10);
+
+## Q4
+INSERT INTO USER 
+(FirstName, LastName, Birthplace, CreatedAt)  
+VALUES 
+('Emmanuel', 'Dadzie', 'Greensboro, NC', CURRENT_DATE),
+('Mariah', 'Asianique', 'Roanoke, VA', CURRENT_TIMESTAMP),
+('Jamal', 'Musa', 'Los Angeles, CA', CURRENT_TIMESTAMP),
+('Joe', 'Mensah', 'LongBeach, CA', CURRENT_TIMESTAMP),
+('Adanna', 'Woody', 'Houston, TX', CURRENT_TIMESTAMP),
+('Mary', 'Evans', 'Savannah, SC', CURRENT_TIMESTAMP),
+('Philip', 'Gardener', 'Miami, FL', CURRENT_TIMESTAMP),
+('Kelvin', 'Taylor', 'Durham, NC', CURRENT_TIMESTAMP),
+('Daniel', 'Blankson', 'Pheonix, AR', CURRENT_TIMESTAMP),
+('Miriam', 'Bortele', 'Highpoint, NC', CURRENT_TIMESTAMP);
+
+SELECT * FROM USER;
+
+## Q5
+UPDATE USER 
+SET LastName = 'Steel',
+	UpdatedAt = CURRENT_TIMESTAMP
+WHERE UserID IN (3, 8, 11);
+
+## Q6
+BEGIN TRANSACTION;
+	DELETE FROM USER;
+	SELECT * FROM USER; 
+ROLLBACK;
+
+## Q7
+INSERT INTO Favorite
+(UserID, CreatedAt)
+VALUES
+(1, CURRENT_TIMESTAMP),
+(2, CURRENT_TIMESTAMP),
+(3, CURRENT_TIMESTAMP),
+(4, CURRENT_TIMESTAMP),
+(5, CURRENT_TIMESTAMP),
+(6, CURRENT_TIMESTAMP),
+(7, CURRENT_TIMESTAMP),
+(8, CURRENT_TIMESTAMP),
+(9, CURRENT_TIMESTAMP),
+(10, CURRENT_TIMESTAMP),
+(11, CURRENT_TIMESTAMP),
+(12, CURRENT_TIMESTAMP);
+
+SELECT * from Favorite;
+
+## Q8
+BEGIN TRANSACTION;
+	DELETE FROM USER
+    WHERE (FavoriteID % 2 = 1) or (FavoriteID % 2 = 0 and FavoriteID > 8);
+	SELECT * FROM USER; 
+ROLLBACK;

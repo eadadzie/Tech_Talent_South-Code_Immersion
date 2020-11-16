@@ -1,0 +1,13 @@
+C:\Users\eadob\Desktop\GAP - Program\1. Code Immersion (CI)\HWKs\HW7\HW7_ConsoleApp\HW7_ConsoleApp\bin\Debug\netcoreapp3.1\HW7_ConsoleApp.exe
+C:\Users\eadob\Desktop\GAP - Program\1. Code Immersion (CI)\HWKs\HW7\HW7_ConsoleApp\HW7_ConsoleApp\bin\Debug\netcoreapp3.1\HW7_ConsoleApp.deps.json
+C:\Users\eadob\Desktop\GAP - Program\1. Code Immersion (CI)\HWKs\HW7\HW7_ConsoleApp\HW7_ConsoleApp\bin\Debug\netcoreapp3.1\HW7_ConsoleApp.runtimeconfig.json
+C:\Users\eadob\Desktop\GAP - Program\1. Code Immersion (CI)\HWKs\HW7\HW7_ConsoleApp\HW7_ConsoleApp\bin\Debug\netcoreapp3.1\HW7_ConsoleApp.runtimeconfig.dev.json
+C:\Users\eadob\Desktop\GAP - Program\1. Code Immersion (CI)\HWKs\HW7\HW7_ConsoleApp\HW7_ConsoleApp\bin\Debug\netcoreapp3.1\HW7_ConsoleApp.dll
+C:\Users\eadob\Desktop\GAP - Program\1. Code Immersion (CI)\HWKs\HW7\HW7_ConsoleApp\HW7_ConsoleApp\bin\Debug\netcoreapp3.1\HW7_ConsoleApp.pdb
+C:\Users\eadob\Desktop\GAP - Program\1. Code Immersion (CI)\HWKs\HW7\HW7_ConsoleApp\HW7_ConsoleApp\obj\Debug\netcoreapp3.1\HW7_ConsoleApp.csprojAssemblyReference.cache
+C:\Users\eadob\Desktop\GAP - Program\1. Code Immersion (CI)\HWKs\HW7\HW7_ConsoleApp\HW7_ConsoleApp\obj\Debug\netcoreapp3.1\HW7_ConsoleApp.AssemblyInfoInputs.cache
+C:\Users\eadob\Desktop\GAP - Program\1. Code Immersion (CI)\HWKs\HW7\HW7_ConsoleApp\HW7_ConsoleApp\obj\Debug\netcoreapp3.1\HW7_ConsoleApp.AssemblyInfo.cs
+C:\Users\eadob\Desktop\GAP - Program\1. Code Immersion (CI)\HWKs\HW7\HW7_ConsoleApp\HW7_ConsoleApp\obj\Debug\netcoreapp3.1\HW7_ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\eadob\Desktop\GAP - Program\1. Code Immersion (CI)\HWKs\HW7\HW7_ConsoleApp\HW7_ConsoleApp\obj\Debug\netcoreapp3.1\HW7_ConsoleApp.dll
+C:\Users\eadob\Desktop\GAP - Program\1. Code Immersion (CI)\HWKs\HW7\HW7_ConsoleApp\HW7_ConsoleApp\obj\Debug\netcoreapp3.1\HW7_ConsoleApp.pdb
+C:\Users\eadob\Desktop\GAP - Program\1. Code Immersion (CI)\HWKs\HW7\HW7_ConsoleApp\HW7_ConsoleApp\obj\Debug\netcoreapp3.1\HW7_ConsoleApp.genruntimeconfig.cache

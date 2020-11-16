@@ -1,0 +1,152 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+
+using CSharpDataTypes.People;
+using CSharpDataTypes.Vehicles;
+
+
+namespace CSharpDataTypes
+{
+    class Program
+    {
+        const double TAX_RATE = 7.0;
+
+        static void Main(string[] args)
+        {
+            Console.Write("Enter a Number: ");
+            string userInput = Console.ReadLine();
+            Console.WriteLine("Your Number is: {0}", userInput);
+            
+            var dictionary = new Dictionary<string, string>();
+            dictionary["apple"] = "A fruit or a computer company";
+            Console.WriteLine(dictionary["apple"]);
+
+            var someList = new List<int>();
+            someList.Add(1);
+            someList.Add(2);
+            someList.Add(3);
+            someList.Add(5);
+            someList.Add(8);
+            someList.Add(11);
+
+            someList.RemoveAt(0);
+            someList.RemoveAt(2);
+
+            for (int i = 0; i < someList.Count; i++) {
+                Console.WriteLine(someList[i]);
+            }
+
+            foreach (int number in someList) {
+                Console.WriteLine(number);
+            }
+
+            someList.ForEach(number => Console.WriteLine(number));
+            someList.ForEach(Console.WriteLine);
+
+            string[] names = { "John", "Daryl", "Mike", "Sarah", "Michele" };
+
+            string[] moreNames = new string[5];
+            moreNames[0] = "John";
+            moreNames[1] = "Daryl";
+            
+            Console.WriteLine("Size of names: {0}\nSize of moreNames: {1}", names.Length, moreNames.Length);
+            // and so on
+
+            string student = "John Smith";
+
+            char firstCharacter = student[1];
+
+            // ---- Exercise for loops ----
+            var animals = new List<string>();
+            animals.Add("Lion");
+            animals.Add("Tiger");
+            animals.Add("Bird");
+            animals.Add("Cat");
+            animals.Add("Dog");
+            animals.Add("Leopard");
+
+            string favoriteAnimal = "Bird";
+
+            foreach (string animal in animals) {
+                Console.WriteLine(animal);
+            }
+
+            if (animals.Contains(favoriteAnimal)) {
+                Console.WriteLine("I love {0} and also every other animal, including {1}", favoriteAnimal, animals[2]);
+                // same as the above line, but without the placeholder
+                Console.WriteLine("I love " + favoriteAnimal + "and also every other animal, including " + animals[2]);
+            }
+            else {
+                Console.WriteLine("No, I don't care for those");
+            }
+
+            // dictionary looping
+            var person = new Dictionary<string, int>();
+            person.Add("Joan", 22);
+            person.Add("Daniel", 42);
+            person.Add("Anna", 34);
+
+            // person = {Joan=22, Daniel=42, Anna=34}
+
+            // loop through the hash map and return each key/value pair
+            for (int i = 0; i < person.Count; i++) {
+                Console.WriteLine("Key: {0}, Value: {1}",
+                    person.Keys.ElementAt(i),
+                    person[person.Keys.ElementAt(i)]);
+            }
+
+            foreach (var peep in person) {
+                // print out the key (their name) and their value
+                Console.WriteLine("Name: {0}, Age: {1}", peep.Key, peep.Value);
+            }
+
+            var studentData = new Dictionary<string, string>();
+            studentData["name"] = "Fred";
+            studentData["age"] = "20";
+            studentData["hometown"] = "Seattle";
+            studentData["favorite_food"] = "Pizza";
+
+
+            Console.WriteLine("This is {0}", studentData["name"]);
+            Console.WriteLine("They are {0} years old", studentData["age"]);
+            Console.WriteLine("from {0}", studentData["hometown"]);
+            Console.WriteLine("and their favorite food is {0}", studentData["favorite_food"]);
+
+            var students = new Dictionary<string, Dictionary<string, string>>();
+            students["Fred"] = new Dictionary<string, string>();
+            students["Fred"].Add("name", "Fred");
+            students["Fred"].Add("age", "20");
+            students["Fred"].Add("hometown", "Seattle");
+            students["Fred"].Add("favorite_food", "Pizza");
+
+            Console.WriteLine("This is {0}", students["Fred"]["name"]);
+
+            var students2 = new Dictionary<string, Student>();
+            var someStudent = new Student("Fred", 20, "Seattle", "Pizza");
+            students2.Add("Fred", someStudent);
+
+            var anotherStudent = new Student("Sally", 21, "Columbus", "Pasta");
+            students2.Add("Sally", anotherStudent);
+            var studentWithNoData = new Student();
+
+            var sedan = new Car("blue", 4);
+            sedan.Start();
+            sedan.Stop();
+            sedan.Drive();
+
+            Console.WriteLine("Car color: {0}", sedan.Color);
+            Console.WriteLine("Number of Doors: {0}", sedan.NumberOfDoors);
+
+            var coup = new Car("red", 2);
+            var compact = new Car("blue");
+
+            Car.Compare(sedan, new Car());
+        }
+
+        static void someFunction()
+        {
+
+        }
+    }
+}

@@ -1,0 +1,13 @@
+C:\Users\eadob\Desktop\GAP - Program\1. Code Immersion (CI)\ASSESSMENTS\ASSESS_5\ASSESS_5\ASSESS_5\bin\Debug\netcoreapp3.1\ASSESS_5.exe
+C:\Users\eadob\Desktop\GAP - Program\1. Code Immersion (CI)\ASSESSMENTS\ASSESS_5\ASSESS_5\ASSESS_5\bin\Debug\netcoreapp3.1\ASSESS_5.deps.json
+C:\Users\eadob\Desktop\GAP - Program\1. Code Immersion (CI)\ASSESSMENTS\ASSESS_5\ASSESS_5\ASSESS_5\bin\Debug\netcoreapp3.1\ASSESS_5.runtimeconfig.json
+C:\Users\eadob\Desktop\GAP - Program\1. Code Immersion (CI)\ASSESSMENTS\ASSESS_5\ASSESS_5\ASSESS_5\bin\Debug\netcoreapp3.1\ASSESS_5.runtimeconfig.dev.json
+C:\Users\eadob\Desktop\GAP - Program\1. Code Immersion (CI)\ASSESSMENTS\ASSESS_5\ASSESS_5\ASSESS_5\bin\Debug\netcoreapp3.1\ASSESS_5.dll
+C:\Users\eadob\Desktop\GAP - Program\1. Code Immersion (CI)\ASSESSMENTS\ASSESS_5\ASSESS_5\ASSESS_5\bin\Debug\netcoreapp3.1\ASSESS_5.pdb
+C:\Users\eadob\Desktop\GAP - Program\1. Code Immersion (CI)\ASSESSMENTS\ASSESS_5\ASSESS_5\ASSESS_5\obj\Debug\netcoreapp3.1\ASSESS_5.csprojAssemblyReference.cache
+C:\Users\eadob\Desktop\GAP - Program\1. Code Immersion (CI)\ASSESSMENTS\ASSESS_5\ASSESS_5\ASSESS_5\obj\Debug\netcoreapp3.1\ASSESS_5.AssemblyInfoInputs.cache
+C:\Users\eadob\Desktop\GAP - Program\1. Code Immersion (CI)\ASSESSMENTS\ASSESS_5\ASSESS_5\ASSESS_5\obj\Debug\netcoreapp3.1\ASSESS_5.AssemblyInfo.cs
+C:\Users\eadob\Desktop\GAP - Program\1. Code Immersion (CI)\ASSESSMENTS\ASSESS_5\ASSESS_5\ASSESS_5\obj\Debug\netcoreapp3.1\ASSESS_5.csproj.CoreCompileInputs.cache
+C:\Users\eadob\Desktop\GAP - Program\1. Code Immersion (CI)\ASSESSMENTS\ASSESS_5\ASSESS_5\ASSESS_5\obj\Debug\netcoreapp3.1\ASSESS_5.dll
+C:\Users\eadob\Desktop\GAP - Program\1. Code Immersion (CI)\ASSESSMENTS\ASSESS_5\ASSESS_5\ASSESS_5\obj\Debug\netcoreapp3.1\ASSESS_5.pdb
+C:\Users\eadob\Desktop\GAP - Program\1. Code Immersion (CI)\ASSESSMENTS\ASSESS_5\ASSESS_5\ASSESS_5\obj\Debug\netcoreapp3.1\ASSESS_5.genruntimeconfig.cache

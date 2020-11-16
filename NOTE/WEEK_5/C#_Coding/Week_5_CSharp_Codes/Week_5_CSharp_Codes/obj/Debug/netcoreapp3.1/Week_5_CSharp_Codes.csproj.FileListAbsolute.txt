@@ -1,0 +1,13 @@
+C:\Users\eadob\Desktop\GAP - Program\1. Code Immersion (CI)\NOTE\WEEK_5\C#_Coding\Week_5_CSharp_Codes\Week_5_CSharp_Codes\bin\Debug\netcoreapp3.1\Week_5_CSharp_Codes.exe
+C:\Users\eadob\Desktop\GAP - Program\1. Code Immersion (CI)\NOTE\WEEK_5\C#_Coding\Week_5_CSharp_Codes\Week_5_CSharp_Codes\bin\Debug\netcoreapp3.1\Week_5_CSharp_Codes.deps.json
+C:\Users\eadob\Desktop\GAP - Program\1. Code Immersion (CI)\NOTE\WEEK_5\C#_Coding\Week_5_CSharp_Codes\Week_5_CSharp_Codes\bin\Debug\netcoreapp3.1\Week_5_CSharp_Codes.runtimeconfig.json
+C:\Users\eadob\Desktop\GAP - Program\1. Code Immersion (CI)\NOTE\WEEK_5\C#_Coding\Week_5_CSharp_Codes\Week_5_CSharp_Codes\bin\Debug\netcoreapp3.1\Week_5_CSharp_Codes.runtimeconfig.dev.json
+C:\Users\eadob\Desktop\GAP - Program\1. Code Immersion (CI)\NOTE\WEEK_5\C#_Coding\Week_5_CSharp_Codes\Week_5_CSharp_Codes\bin\Debug\netcoreapp3.1\Week_5_CSharp_Codes.dll
+C:\Users\eadob\Desktop\GAP - Program\1. Code Immersion (CI)\NOTE\WEEK_5\C#_Coding\Week_5_CSharp_Codes\Week_5_CSharp_Codes\bin\Debug\netcoreapp3.1\Week_5_CSharp_Codes.pdb
+C:\Users\eadob\Desktop\GAP - Program\1. Code Immersion (CI)\NOTE\WEEK_5\C#_Coding\Week_5_CSharp_Codes\Week_5_CSharp_Codes\obj\Debug\netcoreapp3.1\Week_5_CSharp_Codes.csprojAssemblyReference.cache
+C:\Users\eadob\Desktop\GAP - Program\1. Code Immersion (CI)\NOTE\WEEK_5\C#_Coding\Week_5_CSharp_Codes\Week_5_CSharp_Codes\obj\Debug\netcoreapp3.1\Week_5_CSharp_Codes.AssemblyInfoInputs.cache
+C:\Users\eadob\Desktop\GAP - Program\1. Code Immersion (CI)\NOTE\WEEK_5\C#_Coding\Week_5_CSharp_Codes\Week_5_CSharp_Codes\obj\Debug\netcoreapp3.1\Week_5_CSharp_Codes.AssemblyInfo.cs
+C:\Users\eadob\Desktop\GAP - Program\1. Code Immersion (CI)\NOTE\WEEK_5\C#_Coding\Week_5_CSharp_Codes\Week_5_CSharp_Codes\obj\Debug\netcoreapp3.1\Week_5_CSharp_Codes.csproj.CoreCompileInputs.cache
+C:\Users\eadob\Desktop\GAP - Program\1. Code Immersion (CI)\NOTE\WEEK_5\C#_Coding\Week_5_CSharp_Codes\Week_5_CSharp_Codes\obj\Debug\netcoreapp3.1\Week_5_CSharp_Codes.dll
+C:\Users\eadob\Desktop\GAP - Program\1. Code Immersion (CI)\NOTE\WEEK_5\C#_Coding\Week_5_CSharp_Codes\Week_5_CSharp_Codes\obj\Debug\netcoreapp3.1\Week_5_CSharp_Codes.pdb
+C:\Users\eadob\Desktop\GAP - Program\1. Code Immersion (CI)\NOTE\WEEK_5\C#_Coding\Week_5_CSharp_Codes\Week_5_CSharp_Codes\obj\Debug\netcoreapp3.1\Week_5_CSharp_Codes.genruntimeconfig.cache

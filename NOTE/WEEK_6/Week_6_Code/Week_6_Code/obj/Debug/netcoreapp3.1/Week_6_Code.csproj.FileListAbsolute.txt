@@ -1,0 +1,13 @@
+C:\Users\eadob\Desktop\GAP - Program\1. Code Immersion (CI)\NOTE\WEEK_6\Week_6_Code\Week_6_Code\bin\Debug\netcoreapp3.1\Week_6_Code.exe
+C:\Users\eadob\Desktop\GAP - Program\1. Code Immersion (CI)\NOTE\WEEK_6\Week_6_Code\Week_6_Code\bin\Debug\netcoreapp3.1\Week_6_Code.deps.json
+C:\Users\eadob\Desktop\GAP - Program\1. Code Immersion (CI)\NOTE\WEEK_6\Week_6_Code\Week_6_Code\bin\Debug\netcoreapp3.1\Week_6_Code.runtimeconfig.json
+C:\Users\eadob\Desktop\GAP - Program\1. Code Immersion (CI)\NOTE\WEEK_6\Week_6_Code\Week_6_Code\bin\Debug\netcoreapp3.1\Week_6_Code.runtimeconfig.dev.json
+C:\Users\eadob\Desktop\GAP - Program\1. Code Immersion (CI)\NOTE\WEEK_6\Week_6_Code\Week_6_Code\bin\Debug\netcoreapp3.1\Week_6_Code.dll
+C:\Users\eadob\Desktop\GAP - Program\1. Code Immersion (CI)\NOTE\WEEK_6\Week_6_Code\Week_6_Code\bin\Debug\netcoreapp3.1\Week_6_Code.pdb
+C:\Users\eadob\Desktop\GAP - Program\1. Code Immersion (CI)\NOTE\WEEK_6\Week_6_Code\Week_6_Code\obj\Debug\netcoreapp3.1\Week_6_Code.csprojAssemblyReference.cache
+C:\Users\eadob\Desktop\GAP - Program\1. Code Immersion (CI)\NOTE\WEEK_6\Week_6_Code\Week_6_Code\obj\Debug\netcoreapp3.1\Week_6_Code.AssemblyInfoInputs.cache
+C:\Users\eadob\Desktop\GAP - Program\1. Code Immersion (CI)\NOTE\WEEK_6\Week_6_Code\Week_6_Code\obj\Debug\netcoreapp3.1\Week_6_Code.AssemblyInfo.cs
+C:\Users\eadob\Desktop\GAP - Program\1. Code Immersion (CI)\NOTE\WEEK_6\Week_6_Code\Week_6_Code\obj\Debug\netcoreapp3.1\Week_6_Code.csproj.CoreCompileInputs.cache
+C:\Users\eadob\Desktop\GAP - Program\1. Code Immersion (CI)\NOTE\WEEK_6\Week_6_Code\Week_6_Code\obj\Debug\netcoreapp3.1\Week_6_Code.dll
+C:\Users\eadob\Desktop\GAP - Program\1. Code Immersion (CI)\NOTE\WEEK_6\Week_6_Code\Week_6_Code\obj\Debug\netcoreapp3.1\Week_6_Code.pdb
+C:\Users\eadob\Desktop\GAP - Program\1. Code Immersion (CI)\NOTE\WEEK_6\Week_6_Code\Week_6_Code\obj\Debug\netcoreapp3.1\Week_6_Code.genruntimeconfig.cache
